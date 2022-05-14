@@ -7,7 +7,10 @@
     --accent:#3EA0CD;
     --transition-adjust: 0.3s ease;;
 }
-
+::selection{
+    background:var(--mainColor);
+    color:var(--lightColor)
+}
 body{
     margin: 0;
     background-color: var(--dark-50);
@@ -18,8 +21,22 @@ body{
     background-size: 50px 50px, 50px 50px, 25px 25px, 25px 25px;
     height: 300px;
     font-family: 'Sawarabi Gothic', sans-serif;
-    color: white;
+    color: var(--lightColor);
 }
+a,a:active{
+    color:rgba(255,255,255,0.7);
+    text-decoration: none;
+    transition: all .3s;
+}
+a:hover{
+    color:rgba(255,255,255,0.5);
+    transition: all .3s;
+}
+.fa-instagram{
+    margin:0 2rem;
+    font-size: 1.5rem;
+}
+
 #toppage{
     padding:2vh;
     text-align: right;
@@ -28,7 +45,7 @@ body{
     margin:0 2rem 0rem 2rem
 }
 .btn{
-    color:white;
+    color:var(--lightColor);
     text-align: center;
     background: linear-gradient(90deg, #7c7c7c 0%,var(--mainColor) 40%, var(--accent) 100%);
     background-position: 1% 50%;
@@ -114,8 +131,8 @@ iframe,video{
 footer{
     margin:0;
     padding:2rem;
-    background-color:#595656 ;
-    color: white;
+    background-color:var(--mainColor) ;
+    color: var(--lightColor);
     text-align: center;
 }
 h1{
