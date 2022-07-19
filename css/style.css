@@ -32,11 +32,13 @@ a:hover{
     color:rgba(255,255,255,0.5);
     transition: all .3s;
 }
-.fa-instagram{
-    margin:0 2rem;
-    font-size: 1.5rem;
+.fa-instagram,.fa-phone,.fa-envelope{
+    margin-right: 2rem;
+    font-size: 1rem;
 }
-
+#contact p{
+    vertical-align: text-bottom;
+}
 #toppage{
     padding:2vh;
     text-align: right;
@@ -86,7 +88,7 @@ a:hover{
 iframe,video{
     margin:0.5em;
 }
-#Translate,#Vrd3d,#Other{
+#Translate,#Vrd3d,#GraphicDesign{
     display: none;
 }
 #gallery{
@@ -104,7 +106,7 @@ iframe,video{
 	height:auto;
 	vertical-align: bottom;
 }
-#Other img{
+#GraphicDesign img{
     margin:1em
 }
 .pc{
@@ -116,7 +118,7 @@ iframe,video{
 #About{
     padding: 2rem;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     gap:2rem;
 }
 #About img{
@@ -126,6 +128,9 @@ iframe,video{
     min-width: 120px;
 }
 #About p,#About H1{
+    text-align: left;
+}
+#contact{
     text-align: left;
 }
 footer{

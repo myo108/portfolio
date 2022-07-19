@@ -7,17 +7,17 @@ $(document).ready(function(){
         $('#Illust').fadeIn();
         $('#Translate').fadeOut();
         $('#Vrd3d').fadeOut();
-        $('#Other').fadeOut();
+        $('#GraphicDesign').fadeOut();
     })
     $('#btnTranslate').click(function(){
         $(this).addClass('active');
         $('#btnIllust').removeClass('active');
         $('#btnVrd3D').removeClass('active');
-        $('#btnOther').removeClass('active');
+        $('#btnGraphicDesign').removeClass('active');
         $('#Illust').fadeOut();
         $('#Translate').fadeIn();
         $('#Vrd3d').fadeOut();
-        $('#Other').fadeOut();
+        $('#GraphicDesign').fadeOut();
     })
     $('#btnVrd3D').click(function(){
         $(this).addClass('active');
@@ -27,7 +27,7 @@ $(document).ready(function(){
         $('#Illust').fadeOut();
         $('#Translate').fadeOut();
         $('#Vrd3d').fadeIn();
-        $('#Other').fadeOut();
+        $('#GraphicDesign').fadeOut();
     })
     $('#btnOther').click(function(){
         $(this).addClass('active');
@@ -37,7 +37,7 @@ $(document).ready(function(){
         $('#Illust').fadeOut();
         $('#Translate').fadeOut();
         $('#Vrd3d').fadeOut();
-        $('#Other').fadeIn();
+        $('#GraphicDesign').fadeIn();
     })
 
 })
